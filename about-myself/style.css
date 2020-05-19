@@ -1,0 +1,61 @@
+body {
+    background: rgb(235, 250, 249);
+}
+header {
+    background: white;
+    padding: 20px 0 0 0;
+    border-bottom: 2px solid lightgray;
+    outline: 1px solid lightgray;
+}
+
+.caixa {
+    position: relative;
+    width: 75%;
+    margin: 0 auto;
+}
+
+header a {
+    text-decoration: none;
+}
+
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: rgb(96, 214, 214);
+    position: relative;
+    bottom: 12px;
+    margin-left: 8px;
+}
+
+.icone {
+
+    height: 50px;
+}
+
+nav ul {
+    display: inline;
+    position: absolute;
+    margin-right: 100px;
+    right: 0;
+    top: 0;
+    font-size: 22px;
+    color: rgb(131, 131, 131);
+    margin-top: 10px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+    text-decoration: none;
+    padding: 5px;
+    border: 2px solid rgb(96, 214, 214);
+}
+
+nav a {
+    color: rgb(131, 131, 131);
+}
+
