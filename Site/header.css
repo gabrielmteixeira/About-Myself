@@ -1,3 +1,4 @@
+
 body {
     background: rgb(235, 250, 249);
 }
@@ -39,6 +40,7 @@ nav ul {
     display: inline-block;
     position: absolute;
     margin-right: 100px;
+    margin-top: 14px !important;
     right: 0;
     top: 0;
     font-size: 22px;
