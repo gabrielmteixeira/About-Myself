@@ -1,2 +1,2 @@
-# Trainee-iJunior
-Projetos individuais do Programa Trainee da iJunior.
+# About-Myself
+Site sobre mim do processo Trainee da iJunior
