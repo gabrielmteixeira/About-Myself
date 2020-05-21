@@ -110,3 +110,19 @@ li a:hover {
     background-color: rgb(96, 214, 214);
 }
 
+#copyright {
+    background: rgb(217, 240, 236);
+    display: block;
+    position: absolute;
+    margin: 80px 0 0 0;
+    padding: 12px 0 0 0;
+    width: 99.5%;
+    bottom: 1%;
+}
+
+.copyright-texto {
+    color: rgb(105, 105, 105);
+    margin-left: 30%;
+}
+
+
