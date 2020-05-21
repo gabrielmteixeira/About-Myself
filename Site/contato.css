@@ -1,45 +1,43 @@
-.introducao {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    font-weight: 600;
-    font-size: 50px;
-    text-align: center;
-    color:rgb(105, 105, 105);
-    width:40%;
-    display: block;
-    position: relative;
-    margin: 80px auto 20px auto;
-}
-.introducao-subtexto {
+.titulo-contato {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-weight: 600;
     font-size: 40px;
     text-align: center;
     color:rgb(105, 105, 105);
     width:40%;
-    position: relative;
     display: block;
-    margin: 20px auto 40px auto;
-}
-
-.card-custom {
     position: relative;
-    background: rgb(214, 245, 243);
-    border: 4px solid rgb(96, 214, 214);
-    border-radius: 20px;
-    margin: 20px auto 20px auto;
-    width: 45%;
+    margin: 40px auto 10px auto;
+}
+.subtitulo-contato {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 600;
+    font-size: 35px;
+    text-align: center;
+    color:rgb(105, 105, 105);
+    width:40%;
+    display: block;
+    position: relative;
+    margin: 0px auto 25px auto;
 }
 
-.card-custom a:hover {
+.contato{
+    width: 50%;
+    position: relative;
+    margin: 20px auto 30px auto;
+    border: 2px solid rgb(96, 214, 214);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.contato label{
+    color: rgb(105, 105, 105);
+    font-weight: 630;
+}
+
+.contato button:hover{
     color: darkgray;
     background: rgb(27, 255, 255);
-}
-.card-title {
-    color: rgb(105, 105, 105);
-}
-
-.card-text {
-    color: rgb(131, 131, 131);
 }
 
 .btn-primary {
@@ -47,19 +45,4 @@
     background: rgb(96, 214, 214);
     border: rgb(96, 214, 214);
     color:rgb(105, 105, 105);
-}
-
-#copyright {
-    background: rgb(217, 240, 236);
-    display: flex;
-    flex-direction: row;
-    margin: 80px 0 0 0;
-    width: 100%;
-    padding: 12px 0 0 0;
-    bottom: 8%;
-}
-
-.copyright-texto {
-    color: rgb(105, 105, 105);
-    margin-left: 30%;
 }
