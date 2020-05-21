@@ -77,6 +77,13 @@ li a:hover {
     border: 2px solid rgb(96, 214, 214);
 }
 
+@media (max-width: 768px) {
+    .texto-bio {
+        margin: 50px auto 0 auto;
+        width: 85%;
+    }
+}
+
 #intro-bio {
     font-weight: bold;
     font-style: italic;
@@ -90,6 +97,24 @@ li a:hover {
     float: left;
 }
 
+@media (max-width: 768px) {
+    #foto-bio {
+        border-radius: 50%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin: 130px auto auto auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .formato-celular {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
 .table {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
@@ -99,6 +124,14 @@ li a:hover {
     margin: 20px 435px 0 0;
     left: 178px;
     
+}
+
+@media (max-width: 768px) {
+    .table {
+        margin: 20px auto 0 auto;
+        left: 0;
+        width: 98%;
+    }
 }
 
 .table tr {
@@ -118,6 +151,12 @@ li a:hover {
     padding: 12px 0 0 0;
     width: 100%;
     bottom: 0%;
+}
+
+@media (max-width: 768px) {
+    #copyright {
+        margin: 40px 0 0 0;
+    }
 }
 
 .copyright-texto {

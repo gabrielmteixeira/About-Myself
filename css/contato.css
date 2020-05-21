@@ -10,6 +10,13 @@
     position: relative;
     margin: 40px auto 10px auto;
 }
+
+@media (max-width: 768px) {
+    .titulo-contato {
+        width: 90%;
+    }
+}
+
 .subtitulo-contato {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-weight: 600;
@@ -22,13 +29,25 @@
     margin: 0px auto 25px auto;
 }
 
-.contato{
+@media (max-width: 768px) {
+    .subtitulo-contato {
+        width: 90%;
+    }
+}
+
+.contato {
     width: 50%;
     position: relative;
     margin: 20px auto 30px auto;
     border: 2px solid rgb(96, 214, 214);
     padding: 10px;
     border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .contato {
+        width: 90%;
+    }
 }
 
 .contato label{
@@ -54,10 +73,23 @@
     justify-content: center;
 }
 
+@media (max-width: 768px) {
+    .redes-sociais {
+        display:flex;
+        flex-flow: column;
+    }
+}
+
 .card {
     background-color: rgb(96, 214, 214);
     margin-right: 50px;
     margin-left: 50px;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin: 5px auto 25px auto;
+    }
 }
 
 .card-img-top {
@@ -72,6 +104,12 @@
     width: 100%;
     padding: 12px 0 0 0;
     bottom: 8%;
+}
+
+@media (max-width: 768px) {
+    #copyright {
+        margin: 10px 0 0 0;
+    }
 }
 
 .copyright-texto {

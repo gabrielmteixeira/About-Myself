@@ -9,6 +9,14 @@
     position: relative;
     margin: 80px auto 20px auto;
 }
+
+@media (max-width: 768px) {
+    .introducao {
+        width: 90%;
+        margin: 60px auto 10px auto;
+        font-size: 40px;
+    }
+}
 .introducao-subtexto {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-weight: 600;
@@ -18,7 +26,15 @@
     width:40%;
     position: relative;
     display: block;
-    margin: 20px auto 40px auto;
+    margin: 20px auto 80px auto;
+}
+
+@media (max-width: 768px) {
+    .introducao-subtexto {
+        width: 90%;
+        margin: 0 auto 40px auto;
+        font-size: 35px;
+    }
 }
 
 .card-custom {
@@ -28,6 +44,12 @@
     border-radius: 20px;
     margin: 20px auto 20px auto;
     width: 45%;
+}
+
+@media (max-width: 768px) {
+    .card-custom {
+        width: 90%;
+    }
 }
 
 .card-custom a:hover {
