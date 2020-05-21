@@ -71,7 +71,7 @@ li a:hover {
     width: 42%;
     vertical-align: middle;
     display: inline-block;
-    margin: 200px 0px 0 180px;
+    margin: 105px 0px 0 180px;
     padding: 0 20px 0 20px;
     Color: rgb(131, 131, 131);
     border: 2px solid rgb(96, 214, 214);
@@ -90,4 +90,23 @@ li a:hover {
     float: left;
 }
 
+.table {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    position: relative;
+    width: 44.55%;
+    color: rgb(131, 131, 131);
+    margin: 20px 435px 0 0;
+    left: 178px;
+    
+}
+
+.table tr {
+    padding: 4px;
+    background-color: rgb(217, 240, 236);
+}
+
+.table .table-heading {
+    background-color: rgb(96, 214, 214);
+}
 
