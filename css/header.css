@@ -14,7 +14,7 @@ header {
 
 @media (max-width: 768px) {
     header {
-        
+        padding: 20px 0 20px 0;;
     }
 }
 
@@ -58,15 +58,16 @@ h1 {
 @media (max-width: 768px) {
     .icone {
         height: 65px;;
-        margin: 13px 0px 0 53px;
+        margin-top: 12px;
     }
 }
 
 @media (max-width: 768px) {
     .caixa-logo {
         display: flex;
-        width: 60%;
+        width: 100%;
         margin: 0 0 0 0;
+        align-items: center;
         justify-content: center;
     }
 }
@@ -87,7 +88,7 @@ nav ul {
     nav ul {
         display: flex;
         position: relative;
-        margin: 10px auto 0 auto;
+        margin: 20px auto 0 auto;
         justify-content: center;
 
     }
