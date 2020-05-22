@@ -12,7 +12,7 @@ header {
     outline: 1px solid lightgray;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     header {
         padding: 20px 0 20px 0;;
     }
@@ -43,7 +43,7 @@ h1 {
     margin-left: 8px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     h1 {
         width: 60%;
         right: 0;
@@ -55,14 +55,14 @@ h1 {
     height: 50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     .icone {
         height: 65px;;
         margin-top: 12px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     .caixa-logo {
         display: flex;
         width: 100%;
@@ -84,7 +84,7 @@ nav ul {
     margin-top: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     nav ul {
         display: flex;
         position: relative;

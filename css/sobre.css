@@ -10,9 +10,9 @@ header {
     outline: 1px solid lightgray;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     header {
-        padding: 0px 0 20px 0;;
+        padding: 0px 0 5.6% 0;;
     }
 }
 
@@ -39,7 +39,7 @@ h1 {
     margin-left: 8px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     h1 {
         width: 60%;
         right: 0;
@@ -52,14 +52,14 @@ h1 {
     height: 50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     .icone {
         height: 65px;;
         margin-top: 18px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     .caixa-logo {
         display: flex;
         width: 100%;
@@ -81,7 +81,7 @@ nav ul {
     margin-top: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     nav ul {
         display: flex;
         position: relative;
@@ -99,7 +99,7 @@ nav li {
     border: 2px solid rgb(96, 214, 214);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     nav li {
         padding: 8.5px 5px 8.5px 5px;
     }
@@ -125,7 +125,7 @@ li a:hover {
     border: 2px solid rgb(96, 214, 214);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     .texto-bio {
         margin: 50px auto 0 auto;
         width: 85%;
@@ -155,7 +155,7 @@ li a:hover {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     .formato-celular {
         display: flex;
         flex-direction: column;
@@ -174,7 +174,7 @@ li a:hover {
     
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     .table {
         margin: 20px auto 0 auto;
         left: 0;
@@ -201,7 +201,7 @@ li a:hover {
     bottom: 0%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     #copyright {
         margin: 40px 0 0 0;
     }
