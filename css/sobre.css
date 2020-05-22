@@ -1,18 +1,21 @@
-/* header para html sem bootstrap*/
-
+/* header para html com bootstrap*/
 body {
     background: rgb(235, 250, 249);
+
 }
 header {
     background: white;
-    padding: 20px 0 0 0;
+    padding: 20px 0 30px 0;
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-right: 8px;
     border-bottom: 2px solid lightgray;
     outline: 1px solid lightgray;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     header {
-        padding: 0px 0 20px 0;;
+        padding: 20px 0 20px 0;;
     }
 }
 
@@ -23,28 +26,29 @@ header {
 }
 
 header a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 
 h1 {
     font-family: "Times New Roman", Times, serif;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     text-transform: uppercase;
     font-weight: lighter;
+    font-size: 32px;
     color: rgb(96, 214, 214);
     position: relative;
-    bottom: 12px;
+    top: 6px;
+    right:0.4px;
     margin-left: 8px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     h1 {
         width: 60%;
         right: 0;
-        margin: 41px 0px 0 15px;
-        vertical-align: middle;
+        margin: 0 0px 0 15px;
     }
 }
 
@@ -52,14 +56,14 @@ h1 {
     height: 50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     .icone {
         height: 65px;;
-        margin-top: 18px;
+        margin-top: 12px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     .caixa-logo {
         display: flex;
         width: 100%;
@@ -73,19 +77,19 @@ nav ul {
     display: inline-block;
     position: absolute;
     margin-right: 100px;
-    margin-top: 14px !important;
     right: 0;
     top: 0;
+    font-family: "Times New Roman", Times, serif;
     font-size: 22px;
     color: rgb(131, 131, 131);
     margin-top: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     nav ul {
         display: flex;
         position: relative;
-        margin: 2px auto 0 auto !important; 
+        margin: 20px auto 0 auto;
         justify-content: center;
 
     }
@@ -94,16 +98,11 @@ nav ul {
 nav li {
     display: inline;
     margin-right: 30px;
-    text-decoration: none;
     padding: 5px;
     border: 2px solid rgb(96, 214, 214);
 }
 
-@media (max-width: 768px) {
-    nav li {
-        padding: 8.5px 5px 8.5px 5px;
-    }
-}
+
 
 nav a {
     color: rgb(131, 131, 131);
@@ -113,22 +112,25 @@ li a:hover {
     color: rgb(2, 207, 207);
 }
 
+
+
 .texto-bio {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
-    width: 42%;
+    width: 44.28%;
     vertical-align: middle;
     display: inline-block;
-    margin: 105px 0px 0 180px;
-    padding: 0 20px 0 20px;
+    margin: 3.6% 0px 0 180px;
+    padding: 10px 20px 0 20px;
     Color: rgb(131, 131, 131);
     border: 2px solid rgb(96, 214, 214);
+    line-height: 22px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     .texto-bio {
         margin: 50px auto 0 auto;
-        width: 85%;
+        width: 90%;
     }
 }
 
@@ -139,9 +141,9 @@ li a:hover {
 
 #foto-bio {
     border-radius: 50%;
-    width: 520px;
+    width: 580px;
     margin-left: 200px;
-    margin-top: 130px;
+    margin-top: 5.8%;
     float: left;
 }
 
@@ -155,7 +157,7 @@ li a:hover {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     .formato-celular {
         display: flex;
         flex-direction: column;
@@ -171,14 +173,15 @@ li a:hover {
     color: rgb(131, 131, 131);
     margin: 20px 435px 0 0;
     left: 178px;
+    border-collapse: separate;
     
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     .table {
         margin: 20px auto 0 auto;
         left: 0;
-        width: 98%;
+        width: 91.1%;
     }
 }
 
@@ -187,23 +190,37 @@ li a:hover {
     background-color: rgb(217, 240, 236);
 }
 
+.table .centralizado {
+    text-align: center;
+    vertical-align: middle;
+}
+
 .table .table-heading {
     background-color: rgb(96, 214, 214);
+}
+
+.table thead th, .table tbody th, .table tbody td,.table tbody td {
+    border: none;
+    
+}
+
+.table td, .table th {
+    padding: 5px;
 }
 
 #copyright {
     background: rgb(217, 240, 236);
     display: flex;
     flex-direction: row;
-    margin: 51px 0 0 0;
-    padding: 12px 0 0 0;
+    margin: 40px 0 0 0;
     width: 100%;
-    bottom: 0%;
+    padding: 12px 0 0 0;
+    bottom: 8%;
 }
 
 @media (max-width: 768px) {
     #copyright {
-        margin: 40px 0 0 0;
+        margin: 20px 0 0 0;
     }
 }
 
